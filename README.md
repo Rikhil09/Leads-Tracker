@@ -1,4 +1,4 @@
-# TabSaver Extension
+# Tab and Notes Saver Extension
 
 ## Overview
 
