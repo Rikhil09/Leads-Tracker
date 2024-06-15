@@ -5,6 +5,8 @@ const ulEl = document.getElementById("ul-el");
 const inputBtn = document.getElementById("input-btn");
 const delBtn = document.getElementById("del-btn");
 const saveBtn = document.getElementById("savebtn");
+const delStr=document.getElementById("del-str");
+const delEnd=document.getElementById("del-end");
 
 const leadsFromLocalStorage = JSON.parse(localStorage.getItem("myLeads"));
 
@@ -25,6 +27,23 @@ inputBtn.addEventListener("click", function () {
     localStorage.setItem("myLeads", JSON.stringify(myleads));
     render(myleads);
 });
+
+delStr.addEventListener('click', function(){
+    if (myleads && myleads.length > 0) {
+        myleads.shift();
+    }
+    localStorage.setItem("myLeads", JSON.stringify(myleads));
+    render(myleads);
+})
+delEnd.addEventListener('click',function(){
+    if(myleads && myleads.length>0){
+        myleads.pop();
+    }
+    localStorage.setItem("myLeads", JSON.stringify(myleads));
+    render(myleads);
+})
+
+
 saveBtn.addEventListener("click", function () {
     chrome.tabs.query({ currentWindow: true, active: true }, function (tabs) {
         const currentTabUrl = tabs[0].url;
@@ -46,3 +65,4 @@ function render(leads) {
     }
     ulEl.innerHTML = lit;
 }
+
