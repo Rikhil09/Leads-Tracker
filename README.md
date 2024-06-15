@@ -1,19 +1,22 @@
-# Tab and Notes Saver Extension
+# TabSaver Extension
 
 ## Overview
 
-<p><strong>TabSaver</strong> is a browser extension designed to enhance productivity by managing browser tabs and notes efficiently. It offers two primary features:</p>
+<p><strong>TabSaver</strong> is a browser extension designed to enhance productivity by managing browser tabs and notes efficiently. It offers multiple features:</p>
 <ul>
-  <li>Save and manage the URLs of your open tabs.</li>
-  <li>Take notes and display them whenever needed, with an option to delete all notes at once.</li>
+  <li>Save and manage the URLs of your currently open tab.</li>
+  <li>Take notes and display them whenever needed, with options to delete them in bulk.</li>
+  <li>Delete displayed items from the start or from the end.</li>
 </ul>
 
 ## Features
 
 <ul>
-  <li><strong>Save Tab Links:</strong> Easily save the URLs of your current tab with a single click.</li>
+  <li><strong>Save Tab Links:</strong> Easily save the URLs of your currently open tab with a single click and display the URLs for easy access.</li>
   <li><strong>Notes Management:</strong> Take notes and display them whenever required.</li>
-  <li><strong>Bulk Delete:</strong> Quickly delete all saved tabs and notes in one go.</li>
+  <li><strong>Bulk Delete:</strong> Quickly delete all saved tab URLs and notes in one go.</li>
+  <li><strong>Delete from Start:</strong> Delete displayed items starting from the beginning.</li>
+  <li><strong>Delete from End:</strong> Delete displayed items starting from the end.</li>
 </ul>
 
 ## Usage
@@ -21,7 +24,7 @@
 ### Saving Tab Links
 <ol>
   <li>Click on the TabSaver extension icon in your browser.</li>
-  <li>Click the "Save Tab" button to save the URLs of all currently open tab.</li>
+  <li>Click the "Save Tabs" button to save the URLs of all currently open tabs.</li>
 </ol>
 
 ### Taking Notes
@@ -42,5 +45,20 @@
   <li>Click on the TabSaver extension icon.</li>
   <li>Click the "Delete All" button to remove all saved tab URLs and notes.</li>
 </ol>
+
+### Deleting Items from Start
+<ol>
+  <li>Click on the TabSaver extension icon.</li>
+  <li>Click the "Delete from Start" button to remove items starting from the beginning of the list.</li>
+</ol>
+
+### Deleting Items from End
+<ol>
+  <li>Click on the TabSaver extension icon.</li>
+  <li>Click the "Delete from End" button to remove items starting from the end of the list.</li>
+</ol>
+
+
+
 
 
